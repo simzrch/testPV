@@ -18,19 +18,15 @@ class Therminque {
 
 private:
 	
-	string nom;
-	string prenom;
-	int anneeNaissance;
-		
+	float cylindree ;
 
 protected:
  
 public:
 
-	string getNom();
+	string getCylindree();
 
-	string getPrenom();
-	int getAnneNaissance();
+	void setcylindree(float newCylindree);
 
 
 	//void afficheMotos();
@@ -38,8 +34,4 @@ public:
 	//void rmMoto(Moto rmMoto);
 };
 
-#endif /* BATEAU_H_ */
-
-
-
-//les declaration se font generalement dans les ".h"
+#endif
