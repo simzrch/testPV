@@ -12,9 +12,9 @@
 #include "Moteur.h"
 using namespace std;
 
-
+class Therminque;
 //La déclaration de la classe ;
-class Therminque {
+class Thermique {
 
 private:
 	
@@ -24,9 +24,17 @@ protected:
  
 public:
 
-	string getCylindree();
+	
+	
+	Thermique();
+	~Thermique();
+	Thermique(float cylindree);
 
+
+	float getCylindree();
 	void setcylindree(float newCylindree);
+
+
 
 
 	//void afficheMotos();

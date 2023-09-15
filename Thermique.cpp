@@ -46,8 +46,8 @@ Thermique::~Thermique() {
 float Thermique::getCylindree() {
 	return this->cylindree;
 }
-void  Thermique::setcylindree(float cylindree) {
-	this->cylindree = cylindree;
+void  Thermique::setcylindree(float newCylindree) {
+	this->cylindree = newCylindree;
 }
 
 
