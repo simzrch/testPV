@@ -15,11 +15,16 @@ int main()
 
     cout << "la course c'est dangereux" << endl;
 
-    Conducteur* volant = new Conducteur();
+   
+
+    Conducteur *volant = new Conducteur();
     cout << "le conducteur conduis bien" << endl;
 
     Moto* pot = new Moto();
     cout << "la moto est bien lourde" << endl;
+
+    Thermique* cylindre = new Thermique();
+    cout << "la cylindree est : " << cylindre->getCylindree() << " L/tr" << endl;
 
     Moteur* gazoil = new Moteur(20);
     cout << "la moteur pese son poids avec en tout: " << gazoil->getPuissance() << "kg" << endl;

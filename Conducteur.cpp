@@ -15,8 +15,8 @@ using namespace std;
 Conducteur::Conducteur() {
 	// TODO Auto-generated constructor stub
 	cout << "Creation d’un conducteur par defaut " << endl;
-	this->prenom = "sim";
-	this->nom = "dan ";
+	this->prenom = "john";
+	this->nom = "the ripper ";
 	this->anneeNaissance = 1994;
 
 }
