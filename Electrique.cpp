@@ -7,7 +7,7 @@ using namespace std;
 
 Electrique::Electrique() {
 
-	int tensionMax = 0;
+	float tensionMax = 0;
 
 }
 
@@ -17,7 +17,7 @@ Electrique::Electrique() {
  * \param
  * \param
  */
-Electrique::Electrique(int tensionMax) {
+Electrique::Electrique(float tensionMax) {
 
 	this->tensionMax = tensionMax;
 

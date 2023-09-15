@@ -21,7 +21,7 @@ public:
     /*Classe sous forme canonique*/
     Electrique();
     ~Electrique();
-    Electrique(int tensionMax);
+    Electrique(float tensionMax);
 
 
     void setTensionMax(float tensionMax);
