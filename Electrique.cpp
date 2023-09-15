@@ -43,8 +43,7 @@ Electrique::~Electrique() {
  * \return Nom de l'entreprise
  */
 
-
-int Electrique::getTensionMax() {
+float Electrique::getTensionMax() {
 	return this->tensionMax;
 }
 void  Electrique::setTensionMax(float tensionMax) {

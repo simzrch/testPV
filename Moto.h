@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 #pragma once
 
 #include "Moteur.h"
@@ -36,4 +35,3 @@ public:
 
 
 };
->>>>>>> bd882ef8c414808b3cdad1069784685b048a1ecb

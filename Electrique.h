@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #pragma once
 
 #include "Moteur.h"
@@ -30,5 +30,3 @@ public:
 };
 
 
-=======
->>>>>>> refs/remotes/origin/main

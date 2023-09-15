@@ -21,7 +21,7 @@ private:
 	string nom;
 	string prenom;
 	int anneeNaissance;
-	static int nbConducteur;
+	int nbConducteur;
 
 protected:
 
@@ -30,6 +30,7 @@ public:
 	Conducteur();
 	Conducteur(const Conducteur &cond);
 	Conducteur& operator = (const Conducteur &cond);
+	Conducteur(std::string ad, std::string on);
 	virtual  ~Conducteur();
 
 	string getNom();

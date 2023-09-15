@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-=======
+
+
 #pragma once
 
 #include "Electrique.h"
@@ -30,4 +30,4 @@ public:
     int getPuissance();
 
 };
->>>>>>> bd882ef8c414808b3cdad1069784685b048a1ecb
+

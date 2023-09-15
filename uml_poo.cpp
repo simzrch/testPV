@@ -15,10 +15,10 @@ int main()
     
     cout << "la course c'est dangereux" <<endl;
 
-    Conducteur  = new Conducteur(110,);
+    Conducteur *volant  = new Conducteur();
     cout << "le conducteur conduis bien" << endl;
 
-    Moto *pot = new Moto(110, Moteur * moteur);
+    Moto *pot = new Moto();
     cout << "la moto est bien lourde" << endl;
 
     Moteur *gazoil = new Moteur(20);
