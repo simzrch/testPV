@@ -21,10 +21,6 @@ Electrique::Electrique(float tensionMax) {
 
 	this->tensionMax = tensionMax;
 
-
-
-
-
 }
 
 
