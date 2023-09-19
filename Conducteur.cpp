@@ -6,6 +6,7 @@
  */
 #include <iostream>
 #include "Conducteur.h"
+#include "Moto.h"
 #include <string>
 using namespace std;
 
@@ -57,25 +58,40 @@ Conducteur& Conducteur::operator = (const Conducteur& cond)
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*int Conducteur::getPrenom()
+string Conducteur::getPrenom()
 {
 
 	return(this->prenom);
-}*/
+}
+
+string Conducteur::getNom()
+{
+
+	return(this->nom);
+}
+
+int Conducteur::getAnneNaissance()
+{
+
+	return(this->anneeNaissance);
+}
+
+
+void  Conducteur::afficheMotos() {
+
+}
+
+
+
+void Conducteur::addMoto(Moto newMoto)
+{
+	//return(this->newMoto);
+
+}
+
+
+void Conducteur::rmMoto(Moto rmMoto) 
+{
+	//return(this->rmMoto);
+
+};

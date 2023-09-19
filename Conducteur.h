@@ -22,6 +22,7 @@ private:
 	string prenom;
 	int anneeNaissance;
 	int nbConducteur;
+	string  newMoto;
 
 protected:
 
@@ -38,10 +39,10 @@ public:
 	int getAnneNaissance();
 
 
-	//void afficheMotos();
-	//void addMoto(Moto newMoto);
-	//void rmMoto(Moto rmMoto);
+	void afficheMotos();
+	void addMoto(Moto newMoto);
+	void rmMoto(Moto rmMoto);
 };
 
-#endif /* BATEAU_H_ */
+#endif 
 
