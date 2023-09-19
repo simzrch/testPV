@@ -14,9 +14,9 @@ using namespace std;
 //La définition du constructeur par défaut ;
 Conducteur::Conducteur() {
 	// TODO Auto-generated constructor stub
-	cout << "Creation d’un bateau par defaut " << endl;
-	this->prenom = "sim";
-	this->nom = "dan ";
+	cout << "Creation d’un conducteur par defaut " << endl;
+	this->prenom = "john";
+	this->nom = "the ripper ";
 	this->anneeNaissance = 1994;
 
 }
@@ -45,7 +45,7 @@ Conducteur::Conducteur(const Conducteur& cond)
 
 Conducteur& Conducteur::operator = (const Conducteur& cond)
 {
-	cout << "Affectation de Bateau" << endl;
+	cout << "Affectation de conducteur" << endl;
 	if (this != &cond)
 	{
 		prenom = cond.prenom;

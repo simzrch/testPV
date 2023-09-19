@@ -34,6 +34,7 @@ Thermique::Thermique(float cylindree) {
  */
 Thermique::~Thermique() {
 
+<<<<<<< HEAD
 	cout << "Destrcution du moteur thermique " << endl;
 
 }
@@ -49,3 +50,22 @@ float Thermique::getcylindree() {
 void  Thermique::setcylindree(float cylindree) {
 	this->cylindree = cylindree;
 }
+=======
+	cout << "Destrcution du moteur Electrique " << endl;
+
+}
+/**
+ * \brief Accesseur de l'attribut nomEntreprise
+ *
+ * \return Nom de l'entreprise
+ */
+
+float Thermique::getCylindree() {
+	return this->cylindree;
+}
+void  Thermique::setcylindree(float newCylindree) {
+	this->cylindree = newCylindree;
+}
+
+
+>>>>>>> acd9360c94787d2f4f15d1c1f01c88bd2e493702

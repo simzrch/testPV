@@ -12,25 +12,29 @@
 #include "Moteur.h"
 using namespace std;
 
-
+class Therminque;
 //La déclaration de la classe ;
-class Therminque {
+class Thermique {
 
 private:
 	
-	string nom;
-	string prenom;
-	int anneeNaissance;
-		
+	float cylindree ;
 
 protected:
  
 public:
 
-	string getNom();
+	
+	
+	Thermique();
+	~Thermique();
+	Thermique(float cylindree);
 
-	string getPrenom();
-	int getAnneNaissance();
+
+	float getCylindree();
+	void setcylindree(float newCylindree);
+
+
 
 
 	//void afficheMotos();
@@ -38,8 +42,4 @@ public:
 	//void rmMoto(Moto rmMoto);
 };
 
-#endif /* BATEAU_H_ */
-
-
-
-//les declaration se font generalement dans les ".h"
+#endif
