@@ -1,3 +1,12 @@
+/*****************************************************************//**
+ * \file   Moto.cpp
+ * \brief  description du fichier Moto.cpp
+ * 
+ * \author SNIR_admin
+ * \date   September 2023
+ *********************************************************************/
+
+
 #include "Moto.h"
 
 
@@ -5,20 +14,23 @@
 using namespace std;
 
 
+/**
+ * \brief description de la classe Moto
+ */
 
 Moto::Moto() {
 
-	int poids = 0;
 
-	Moteur* moteur = 0;
-
+	this->poids = 5;
+	
+	this->moteur = 0;
 }
 
 /**
- * \brief
- *
- * \param
- * \param
+ * .
+ * 
+ * \param poids
+ * \param moteur
  */
 Moto::Moto(int poids, Moteur* moteur) {
 
@@ -39,17 +51,27 @@ Moto::~Moto() {
 
 }
 
-
+/**
+ * .
+ * 
+ * \return du poids
+ */
 int Moto::getPoids() {
 	return this->poids;
 }
+
+/**
+ * .
+ * 
+ * \param poids
+ */
 void  Moto::setPoids(int poids) {
 	this->poids = poids;
 }
 /**
- * \brief Mutateur de l'attribut nomEntreprise
- *
- * \param nouveauNom nouveau nom de l'entreprise
+ * .
+ * 
+ * \param moteur
  */
 
 

@@ -7,7 +7,9 @@
 #include <iostream>
 #include <string>
 class Moteur;
-
+/**
+ * \brief description de la classe Moteur
+ */
 class Moteur
 {
 private:

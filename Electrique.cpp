@@ -1,3 +1,11 @@
+/*****************************************************************//**
+ * \file   Electrique.cpp
+ * \brief  description du fichier Electrique.cpp
+ * 
+ * \author SNIR_admin
+ * \date   September 2023
+ *********************************************************************/
+
 #include "Electrique.h"
 
 
@@ -7,15 +15,14 @@ using namespace std;
 
 Electrique::Electrique() {
 
-	float tensionMax = 0;
+	this->tensionMax = 200;
 
 }
 
 /**
- * \brief
- *
- * \param
- * \param
+ * .
+ * 
+ * \param tensionMax
  */
 Electrique::Electrique(float tensionMax) {
 
@@ -34,14 +41,19 @@ Electrique::~Electrique() {
 
 }
 /**
- * \brief Accesseur de l'attribut nomEntreprise
- *
- * \return Nom de l'entreprise
+ * .
+ * 
+ * \return de la tension max
  */
 
 float Electrique::getTensionMax() {
 	return this->tensionMax;
 }
+/**
+ * .
+ * 
+ * \param tensionMax
+ */
 void  Electrique::setTensionMax(float tensionMax) {
 	this->tensionMax = tensionMax;
 }

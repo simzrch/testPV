@@ -1,9 +1,10 @@
-/*
- * Thermique.h
- *
- *  Created on: 27 févr. 2023
- *      Author: SNIR_admin
- */
+/*****************************************************************//**
+ * \file   Thermique.h
+ * \brief  description de Thermique.h
+ * 
+ * \author SNIR_admin
+ * \date   September 2023
+ *********************************************************************/
 
 #ifndef THERMIQUE_H_
 #define THERMIQUE_H_

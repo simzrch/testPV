@@ -4,18 +4,19 @@
 using namespace std;
 
 
-
+/**
+ * \brief description de la classe M%oteur
+ */
 Moteur::Moteur() {
 
-	int puissance = 0;
+	this->puissance = 0;
 
 }
 
 /**
- * \brief
- *
- * \param
- * \param
+ * .
+ * 
+ * \param puissance
  */
 Moteur::Moteur(int puissance) {
 

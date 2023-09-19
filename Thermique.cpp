@@ -7,7 +7,7 @@ using namespace std;
 
 Thermique::Thermique() {
 
-	float cylindree = 0;
+	 this->cylindree = 18;
 
 }
 
@@ -25,6 +25,7 @@ Thermique::Thermique(float cylindree) {
 
 
 
+
 }
 
 
@@ -34,7 +35,7 @@ Thermique::Thermique(float cylindree) {
  */
 Thermique::~Thermique() {
 
-<<<<<<< HEAD
+
 	cout << "Destrcution du moteur thermique " << endl;
 
 }
@@ -44,20 +45,15 @@ Thermique::~Thermique() {
  * \return Nom de moteur Thermique
  */
 
-float Thermique::getcylindree() {
-	return this->cylindree;
-}
-void  Thermique::setcylindree(float cylindree) {
-	this->cylindree = cylindree;
-}
-=======
-	cout << "Destrcution du moteur Electrique " << endl;
 
-}
+
+
+
+
 /**
- * \brief Accesseur de l'attribut nomEntreprise
+ * \brief Accesseur de l'attribut 
  *
- * \return Nom de l'entreprise
+ * \return Nom de 
  */
 
 float Thermique::getCylindree() {
@@ -68,4 +64,4 @@ void  Thermique::setcylindree(float newCylindree) {
 }
 
 
->>>>>>> acd9360c94787d2f4f15d1c1f01c88bd2e493702
+

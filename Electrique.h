@@ -1,4 +1,10 @@
-
+/*****************************************************************//**
+ * \file   Electrique.h
+ * \brief  description du fichier Electrique.h
+ * 
+ * \author SNIR_admin
+ * \date   September 2023
+ *********************************************************************/
 #pragma once
 
 #include "Moteur.h"
