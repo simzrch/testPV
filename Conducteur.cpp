@@ -1,9 +1,12 @@
-/*
- * Bateau.cpp
- *
- *  Created on: 27 févr. 2023
- *      Author: SNIR_admin
- */
+/*****************************************************************//**
+ * \file   Conducteur.cpp
+ * \brief  description du fichier  Conducteur.cpp
+ * 
+ * \author SNIR_admin
+ * \date   September 2023
+ *********************************************************************/
+
+
 #include <iostream>
 #include "Conducteur.h"
 #include "Moto.h"
@@ -21,10 +24,21 @@ Conducteur::Conducteur() {
 	this->anneeNaissance = 1994;
 
 }
-/////////////////////////////////////////////////////////////////////////////////////
+/**
+ * .
+ * 
+ * \param ad
+ * \param on
+ */
 Conducteur::Conducteur(std::string ad, std::string on)
 {
 	cout << "Je suis le consducteur" << endl;
+	/**
+	 * .
+	 * 
+	 * \param ad
+	 * \param on
+	 */
 	this->prenom = "ad";
 	this->nom = "on";
 
@@ -32,18 +46,39 @@ Conducteur::Conducteur(std::string ad, std::string on)
 
 Conducteur::~Conducteur() {
 	// TODO Auto-generated destructor stub
+
 	cout << "Je suis le destructeur" << endl;
 	nbConducteur--;
 }
+/**
+ * .
+ * 
+ * \param cond pour conducteur
+ */
 Conducteur::Conducteur(const Conducteur& cond)
 {
+	/**
+	 * .
+	 * 
+	 * \param cond pour conducteur
+	 */
 	cout << "Copie de Conducteur" << endl;
+	/**
+	 * .
+	 * 
+	 * \param cond pour conducteur
+	 */
 	prenom = cond.prenom;
 	nom = cond.nom;
 	anneeNaissance = cond.anneeNaissance;
 	nbConducteur++;
 }
-
+/**
+ * .
+ * 
+ * \param cond pour conducteur
+ * \return de l'Affectation de conducteur
+ */
 Conducteur& Conducteur::operator = (const Conducteur& cond)
 {
 	cout << "Affectation de conducteur" << endl;
@@ -54,22 +89,40 @@ Conducteur& Conducteur::operator = (const Conducteur& cond)
 		anneeNaissance = cond.anneeNaissance;
 		nbConducteur++;
 	}
+	/**
+	 * .
+	 * 
+	 * \param cond pour conducteur 
+	 * \return toute l'affectation
+	 */
 	return *this;
 
 }
-
+/**
+ * .
+ * 
+ * \return le prénom du conducteur
+ */
 string Conducteur::getPrenom()
 {
 
 	return(this->prenom);
 }
-
+/**
+ * .
+ * 
+ * \return le nom du conducteur
+ */
 string Conducteur::getNom()
 {
 
 	return(this->nom);
 }
-
+/**
+ * .
+ * 
+ * \return l'annee de naissance du conducteur
+ */
 int Conducteur::getAnneNaissance()
 {
 
@@ -82,16 +135,24 @@ void  Conducteur::afficheMotos() {
 }
 
 
-
-void Conducteur::addMoto(Moto newMoto)
+/**
+ * .
+ * 
+ * \param newMoto
+ */
+void Conducteur::addMoto(Moto *newMoto)
 {
-	//return(this->newMoto);
+	this->maMoto = newMoto;
 
 }
 
-
-void Conducteur::rmMoto(Moto rmMoto) 
+/**
+ * .
+ * 
+ * \param rmMoto
+ */
+void Conducteur::rmMoto() 
 {
-	//return(this->rmMoto);
+	this->maMoto = NULL; 
 
 };

@@ -1,4 +1,10 @@
-
+/*****************************************************************//**
+ * \file   Moteur.h
+ * \brief  description du fichier Moteur.h
+ * 
+ * \author SNIR_admin
+ * \date   September 2023
+ *********************************************************************/
 
 #pragma once
 
@@ -25,10 +31,24 @@ public:
     /*Classe sous forme canonique*/
     Moteur();
     ~Moteur();
+    /**
+     * .
+     * 
+     * \param puissance
+     */
     Moteur(int puissance);
 
-
+    /**
+     * .
+     * 
+     * \param puissance
+     */
     void setPuissance(int puissance);
+    /**
+     * .
+     * 
+     * \return la puissance grace a cette methode
+     */
     int getPuissance();
 
 };

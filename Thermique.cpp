@@ -1,10 +1,20 @@
+/*****************************************************************//**
+ * \file   Thermique.cpp
+ * \brief  description du fichier Thermique.cpp
+ * 
+ * \author SNIR_admin
+ * \date   September 2023
+ *********************************************************************/
 #include "Thermique.h"
 
 
 using namespace std;
 
 
-
+/**
+ * \brief description de la classe Thermique
+ */
+ //La définition du constructeur par défaut ;
 Thermique::Thermique() {
 
 	 this->cylindree = 18;
@@ -12,10 +22,9 @@ Thermique::Thermique() {
 }
 
 /**
- * \brief
- *
- * \param
- * \param
+ * .
+ * 
+ * \param cylindree
  */
 Thermique::Thermique(float cylindree) {
 
@@ -39,26 +48,24 @@ Thermique::~Thermique() {
 	cout << "Destrcution du moteur thermique " << endl;
 
 }
-/**
- * \brief Accesseur de l'attribut moteur Thermique
- *
- * \return Nom de moteur Thermique
- */
-
-
 
 
 
 
 /**
- * \brief Accesseur de l'attribut 
+ * 
  *
- * \return Nom de 
+ * \return du résultat cylindre
  */
 
 float Thermique::getCylindree() {
 	return this->cylindree;
 }
+/**
+ * .
+ * 
+ * \param newCylindree
+ */
 void  Thermique::setcylindree(float newCylindree) {
 	this->cylindree = newCylindree;
 }

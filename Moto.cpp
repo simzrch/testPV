@@ -17,7 +17,7 @@ using namespace std;
 /**
  * \brief description de la classe Moto
  */
-
+ //La définition du constructeur par défaut ;
 Moto::Moto() {
 
 
@@ -42,7 +42,7 @@ Moto::Moto(int poids, Moteur* moteur) {
 }
 
 /**
- * \brief Destructeur
+ * \brief c'est le Destructeur
  *
  */
 Moto::~Moto() {

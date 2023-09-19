@@ -1,3 +1,10 @@
+/*****************************************************************//**
+ * \file   Moteur.cpp
+ * \brief  description du fichier Moteur.cpp
+ * 
+ * \author SNIR_admin
+ * \date   September 2023
+ *********************************************************************/
 #include "Moteur.h"
 
 
@@ -5,8 +12,9 @@ using namespace std;
 
 
 /**
- * \brief description de la classe M%oteur
+ * \brief description de la classe Moteur
  */
+ //La définition du constructeur par défaut ;
 Moteur::Moteur() {
 
 	this->puissance = 0;
@@ -39,15 +47,20 @@ Moteur::~Moteur() {
 
 }
 /**
- * \brief Accesseur de l'attribut nomEntreprise
+ * \brief Accesseur de l'attribut puissance
  *
- * \return Nom de l'entreprise
+ * \return Nombre de la puissance
  */
 
 
 int Moteur::getPuissance() {
 	return this->puissance;
 }
+/**
+ * .
+ * \brief Mutateur de l'attribut puissance
+ * \param puissance
+ */
 void  Moteur::setPuissance(int puissance) {
 	this->puissance = puissance;
 }

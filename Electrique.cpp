@@ -12,7 +12,10 @@
 using namespace std;
 
 
-
+/**
+ * \brief description de la classe Electrique
+ */
+ //La définition du constructeur par défaut ;
 Electrique::Electrique() {
 
 	this->tensionMax = 200;
@@ -32,7 +35,7 @@ Electrique::Electrique(float tensionMax) {
 
 
 /**
- * \brief Destructeur
+ * \brief c'est le Destructeur
  *
  */
 Electrique::~Electrique() {

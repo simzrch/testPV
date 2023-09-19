@@ -35,13 +35,38 @@ public:
     /*Classe sous forme canonique*/
     Moto();
     ~Moto();
+    /**
+     * .
+     * 
+     * \param poids
+     * \param moteur
+     */
     Moto(int poids, Moteur* moteur);
 
-
+    /**
+     * .
+     * 
+     * \param poids grace a cettre methode
+     */
     void setPoids(int poids);
+    /**
+     * .
+     * 
+     * \return le poids grace a cettre methode
+     */
     int getPoids();
 
+    /**
+     * .
+     * 
+     * \param moteur
+     */
     void setMoteur(Moteur* moteur);
+    /**
+     * .
+     * 
+     * \return le moteur
+     */
     Moteur* getMoteur();
 
 

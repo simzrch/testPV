@@ -29,18 +29,27 @@ public:
 	
 	Thermique();
 	~Thermique();
+	/**
+	 * .
+	 * 
+	 * \param cylindree
+	 */
 	Thermique(float cylindree);
 
 
 	float getCylindree();
+	/**
+	 * .
+	 * 
+	 * \param newCylindree
+	 */
 	void setcylindree(float newCylindree);
 
 
 
 
-	//void afficheMotos();
-	//void addMoto(Moto newMoto);
-	//void rmMoto(Moto rmMoto);
+
+	
 };
 
 #endif

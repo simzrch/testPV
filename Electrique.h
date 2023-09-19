@@ -11,7 +11,9 @@
 #include <iostream>
 #include <string>
 class Electrique;
-
+/**
+ * \brief description de la classe Electrique
+ */
 class Electrique
 {
 private:
@@ -27,10 +29,20 @@ public:
     /*Classe sous forme canonique*/
     Electrique();
     ~Electrique();
+    /**
+     * .
+     * 
+     * \param tensionMax
+     */
     Electrique(float tensionMax);
 
-
+    /**
+     * .
+     * 
+     * \param tensionMax
+     */
     void setTensionMax(float tensionMax);
+
     float getTensionMax();
 
 };
