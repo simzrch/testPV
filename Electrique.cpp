@@ -21,10 +21,6 @@ Electrique::Electrique(int tensionMax) {
 
 	this->tensionMax = tensionMax;
 
-
-
-
-
 }
 
 

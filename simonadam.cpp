@@ -13,12 +13,13 @@ int main()
 {
 
 
-    cout << "la course c'est dangereux" << endl;
+    cout << "la course cest dangereux" << endl;
 
    
 
     Conducteur *volant = new Conducteur();
     cout << "le conducteur conduis bien" << endl;
+
 
     Moto* pot = new Moto();
     cout << "la moto est bien lourde" << endl;
